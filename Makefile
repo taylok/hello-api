@@ -14,6 +14,6 @@ install-go:
 init-go:
   echo 'export PATH=$$PATH:/usr/local/go/bin' >> $${HOME}/.bashrc
   echo 'export PATH=$$PATH:$${HOME}/go/bin' >> $${HOME}/.bashrc
-
+ 
 build:
   go build -o api cmd/main.go
