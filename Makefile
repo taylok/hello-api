@@ -16,4 +16,4 @@ init-go:
   echo 'export PATH=$$PATH:$${HOME}/go/bin' >> $${HOME}/.bashrc
 
 build:
-	go build -o api cmd/main.go
+  go build -o api cmd/main.go
